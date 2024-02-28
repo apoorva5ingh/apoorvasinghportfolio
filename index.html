@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+     <meta http-equiv="X-UA-compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apoorva's Portfolio</title>
+<link rel="stylesheet" href="style.css">
+<script src="https://kit.fontawesome.com/12376814a7.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="Screenshot_2024-01-23_200511-removebg-preview.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#services">Service</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+                <i class="fas fa-circle-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-ellipsis" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Web-Developer</p>
+            <h1>Hi , I'm <span>Apoorva</span> <br> Singh From India</h1>
+        </div>
+    </div>
+</div>  
+<!----about------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div id="about-col-1">
+                <img src="user-1.jpg">
+            </div>
+            <div id="about-col-2">
+                <h1 class="subtitle">About Me</h1>
+                <p>Hello there! I'm Apoorva Deep Singh, a passionate and ambitious first-year Computer Science Engineering student. As I embark on this exciting academic journey, I'm fueled by a deep curiosity and love for technology. My fascination with the world of computer science extends beyond the classroom, as I constantly seek to explore and understand the ever-evolving landscape of technology.
+
+                    I believe in the power of innovation and its ability to transform lives. Whether it's diving into coding challenges, staying up-to-date with the latest developments in the tech industry, or collaborating on exciting projects, I am driven to make a positive impact. My goal is not only to excel in my academic pursuits but also to contribute to the broader field of computer science.
+                    
+                    Join me on this adventure as I navigate through the world of ones and zeros, turning my passion for technology into a meaningful journey of growth and discovery. Let's connect, learn, and explore the endless possibilities that the world of computer science has to offer!</p>
+                  
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links " onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links " onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" , id="Skills">
+                        <ul>
+                            <li><span>Web-Developer</span><br>Designing Websites and apps</li>
+                            <li><span>UI/UX</span><br>UI/UX Designing Web/App interfaces</li>
+                            <li><span>Graphic-Desing</span><br>GUI gmaes/apps</li>
+                        </ul>
+                    </div>
+         
+                    <div class="tab-contents" , id="Experience">
+                        <ul>
+                            <li>
+                                <span>Not Yet</span><br>nahi hai , uske liye pehle  job do 
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" , id="Education">
+                        <ul>
+                            <li><span>2009-2021</span><br>Dr. Gl. Dutta D.A.V Public School</li>
+                            <li><span>2021-2023</span><br>Prakirtik Public School</li>
+                            <li><span>2023-2027</span><br>Btech  from UIT</li>
+                        </ul>
+                    </div>
+                </div>
+        </div>
+    </div>
+</div> 
+
+<!---Services-->
+<div id="services">
+    <div class="container">
+        <h1 class="subtitle">My Servies</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <P>Elevate your online presence with our bespoke web design services. i craft visually stunning and user-friendly websites tailored to your unique brand identity. 
+                    My responsive designs ensure a seamless experience across all devices, while  my strategic approach focuses on achieving your business goals. With cutting-edge technology and SEO-friendly practices, i create a virtual storefront that captivates visitors and drives conversions. Choose me  for a custom solution that sets your business apart in the digital landscape. Let's transform your website into a powerful asset for success.</P>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-uikit"></i>
+                    <h2>UI/UX Design</h2>
+                    <P>Elevate your digital experience with personalized UI/UX services. Tailored to your needs, our individualized solutions ensure intuitive interfaces and seamless interactions. From user research to wireframes and prototypes, we craft designs that captivate and engage, enhancing user satisfaction and driving success for your unique project.</P>
+                        <a href="#">Learn more</a>
+                    </div> <div>
+                        <i class="fa-solid fa-video"></i>
+                        <h2>Video Editing</h2>
+                        <p>Aspiring video editor eager to embark on a creative journey. Proficient in basic editing software, passionate about storytelling through visuals. Quick learner, detail-oriented, and open to constructive feedback. Seeks opportunities to enhance skills, contribute fresh perspectives, and collaborate on diverse projects. Enthusiastic about breaking into the dynamic world of video production.</p>
+
+                            <a href="#">Learn more</a>
+                        </div>
+        </div>
+    </div>
+</div>
+
+<!----portfolio------->
+<div id="portfolio">
+<div class="container">
+    <h1 class="sub-title">Works</h1>
+    <div class="worklist">
+        <div class="work">
+            <img src="work-1.jpg" >
+            <div class="layer">
+                <h3>Social Media App</h3>
+                <p>this app connects you through the people around the globe</p>
+                <a href=""><i class="fa-solid fa-paperclip"></i></a>
+            </div>
+
+        </div>
+        <div class="work">
+            <img src="work-2.jpg" >
+            <div class="layer">
+                <h3>Weather Forecast</h3>
+                <p>this app shows the weather to the respective location</p>
+                <a href=""><i class="fa-solid fa-paperclip"></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="work-3.jpg" >
+            <div class="layer">
+                <h3>Cars Buy 24</h3>
+                <p>this app allows to buy cars online</p>
+                <a href=""><i class="fa-solid fa-paperclip"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <a href="#" class="btn">See More</a>
+
+</div>
+
+</div>
+<!--CONTACT-->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="subtitle">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>apoorvadeepsingh7@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>9142329970</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/profile.php?id=100080146390272"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/axoorva/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/apoorva-deep-singh-3b2734244/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://twitter.com/apoorva5ingh"><i class="fa-brands fa-square-x-twitter"></i></a>
+                </div>
+                <a href="apoorva's cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="enter your name" required>
+                    <input type="email"name="Email" placeholder="enter your email" required>
+                    <textarea name="Message" rows="10" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @ApoorvaSingh <i class="fa-regular fa-face-smile"></i> </p>
+    </div>
+
+
+</div>
+
+
+
+
+
+<script>
+
+var tablinks = document.getElementsByClassName("tab-links");
+var tabcontents = document.getElementsByClassName("tab-contents");
+
+function opentab(tabname){
+    for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+    }
+    for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+}
+</script>
+
+<script>
+
+var sidemenu = document.getElementById("sidemenu");
+
+function openmenu(){
+    sidemenu.style.right="0";
+}
+function closemenu(){
+    sidemenu.style.right="-200px";
+}
+
+</script>
+</body>
+</html>
